@@ -13,7 +13,7 @@ spec:
       labels:
         name: myapp-pod
         app: myapp
-        type: front-end
+    #    type: front-end
     spec:
       containers:
         - name: nginx-image
@@ -21,4 +21,4 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      type: front-end
+      type: myappd
